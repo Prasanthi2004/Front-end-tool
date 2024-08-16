@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    text-align: center;
+    color: seashell;
+}
+.main{
+    min-height: 63vh;
+    max-width: 330px;
+    background-color: #222222;
+    border-radius: 20px;
+    margin: 20rem auto;
+}
+.sub{
+    min-height: 50vh;
+    max-width: 280px;
+    margin:8rem auto;
+    position: relative;
+    top: 35px;
+    
+}
+img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 5rem;
+    object-fit: cover;
+}
+.p0{
+    color: yellow;
+}
+.grid-box{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 16px;
+}
+.item-1{
+   border-radius: 5px;
+    background-color: #333333;
+    padding: 8px;
+}
